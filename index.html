@@ -1,17 +1,71 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <title>Mario Ovalle player</title>
-  </head>
-  <body>
+
+
+    <style>
+        body {
+            background-color: #050006;
+            background-repeat: no-repeat;
+            margin: 5px;
+            text-align: center;
+            min-width: 450px;
+            overflow-x: hidden;
+        }
+
+        .grid {
+            display: grid;
+
+            grid-template-columns: repeat(6, 1fr);
+            column-gap: 20px;
+            row-gap: 10px;
+
+        }
+
+        .btn {
+            width: 100%;
+            background-color: #818181;
+            border: none;
+            padding: 5px 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #FEAD41;
+        }
+    </style>
 
     <script>
-      function playAudio(url) {
-        new Audio(url).play();
+        function playAudio(url) {
+            new Audio(url).play();
         }
     </script>
+</head>
 
-    <img src="./res/img/play.png" onclick="playAudio('./res/audio/chumbimba.wav')">
+<body>
+    <img src="./res/img/logo.jpg">
+    <div class="grid">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+        <img class="btn" src="./res/img/machete.jpg" onclick="playAudio('./res/audio/voleo.aac')">
+    </div>
 
-  </body>
+</body>
+
 </html>
