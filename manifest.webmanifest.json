@@ -1,0 +1,23 @@
+{
+    "short_name": "MOPlayer",
+    "name": "Mario Ovalle Player",
+    "description": "Mario Ovalle famous quotes",
+    "icons": [
+      {
+        "src": "./res/img/small.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./res/img/large.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?utm_source=pwa_webapp",
+    "background_color": "#050006",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FEAD41",
+    "orientation": "portrait"
+  }

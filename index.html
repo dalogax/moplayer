@@ -1,10 +1,9 @@
 <!doctype html>
 <html>
-
 <head>
-    <title>Mario Ovalle player</title>
-
-
+    <title>Mario Ovalle Player</title>
+    <link rel="manifest" href="/manifest.webmanifest.json" />
+    <meta name="theme-color" content="#FEAD41">
     <style>
         body {
             background-color: #050006;
@@ -23,7 +22,6 @@
             row-gap: 10px;
 
         }
-
         .btn {
             width: 100%;
             background-color: #818181;
@@ -35,14 +33,12 @@
             background-color: #FEAD41;
         }
     </style>
-
     <script>
         function playAudio(url) {
             new Audio(url).play();
         }
     </script>
 </head>
-
 <body>
     <img src="./res/img/logo.jpg">
     <div class="grid">
@@ -50,9 +46,9 @@
         <img class="btn" src="./res/img/parcerito.jpg" onclick="playAudio('./res/audio/parcerito.aac')">
         <img class="btn" src="./res/img/rata.jpg" onclick="playAudio('./res/audio/rata.aac')">
         <img class="btn" src="./res/img/consejos.jpg" onclick="playAudio('./res/audio/consejos.aac')">
+        <img class="btn" src="./res/img/saludos.jpg" onclick="playAudio('./res/audio/saludos.aac')">
+        <img class="btn" src="./res/img/canones.jpg" onclick="playAudio('./res/audio/canones.aac')">
         <img class="btn" src="./res/img/easy.jpg" onclick="playAudio('./res/audio/easy.aac')">
     </div>
-
 </body>
-
 </html>
