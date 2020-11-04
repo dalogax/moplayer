@@ -4,12 +4,18 @@
   "description": "Mario Ovalle famous quotes",
   "icons": [
     {
-      "src": "./res/img/small.png",
+      "src": "./res/img/favicon/maskable_icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./res/img/favicon/small.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./res/img/large.png",
+      "src": "./res/img/favicon/large.png",
       "type": "image/png",
       "sizes": "512x512"
     },
